@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Limelight&family=Playfair+Display&family=Source+Sans+Pro&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+  <title>Basic Banking System</title>
+
+  <style>
+    .btn:hover {
+      color: rgba(5, 5, 5, 0.952);
+      cursor: pointer;
+    }
+
+    .navbar {
+      box-shadow: none;
+      font-size: 22px;
+      height: 65px;
+    }
+
+    .container-fluid h1 {
+      font-family: 'Noto Serif', serif;
+    }
+
+    .container-fluid h2 {
+      font-family: 'Limelight', cursive;
+      font-size: 40px;
+    }
+
+    .container-fluid p {
+      font-family: 'Merriweather', serif;
+      font-size: 18px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <nav class="mb-0 navbar navbar-expand-lg navbar-dark scrolling-navbar" style="background-color: rgb(98, 196, 196);">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+      aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="home nav-link" href="#">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Features
+          </a>
+          <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+            <a class="dropdown-item" href="http://localhost:8080/BASIC_BANKING_SYSTEM/CreateUser/createUser.html">create
+              user</a>
+            <a class="dropdown-item" href="http://localhost:8080/BASIC_BANKING_SYSTEM/user.php">view user</a>
+            <a class="dropdown-item" href="http://localhost:8080/BASIC_BANKING_SYSTEM/user.php">transfer money</a>
+            <a class="dropdown-item"
+              href="http://localhost:8080/BASIC_BANKING_SYSTEM/transactionhistory.php">transaction history</a>
+          </div>
+        </li>
+      </ul>
+      <div class="Foundation" href="#" style="color: white;"><u>Foundation Bank</u></div>
+    </div>
+    </div>
+  </nav>
+
+  <div class="content">
+    <div class="container-fluid">
+      <div class="row mx-auto my-5">
+        <div class="col-lg-5 mx-5">
+          <h1 class="mx-5 px-5">Welcome to</h1>
+          <h2 class="display-3 "> Basic banking System</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus consequuntur molestias
+            beatae perferendis? Asperiores corrupti molestias earum hic pariatur, reiciendis nobis optio
+            beatae nihil inventore cupiditate officia voluptas dicta! Laboriosam?</p>
+          <div style="margin-left: 50px; margin-top:40px ;">
+            <a href="CreateUser/createUser.html"><button class="btn btn-lg btn-primary" style="width: 61%;">Create
+                User</button></a><br>
+            <a href="user.php"><button class="btn btn-lg btn-primary" style="width: 61%;">View Users</button><br></a>
+            <a href="user.php"><button class="btn btn-lg btn-primary" style="width: 61%;">Transfer
+                Money</button></a><br>
+            <a href="transactionhistory.php"><button class="btn btn-lg btn-primary" style="width: 61%;">Transaction
+                History</button>
+            </a>
+          </div>
+        </div>
+        <div class="logo col-lg-5">
+          <img src="images/Digital-Led-Retail-Banking.gif" alt="" style="width: 100%; height: 100%;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer font-small stylish-color-dark pt-4">
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center" id="social-media">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-2" id="icons">
+          <i class="fab fa-facebook-square fa-2x"></i> </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-2" id="icons">
+          <i class="fab fa-twitter-square fa-2x"></i> </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-2" id="icons">
+          <i class="fab fa-google-plus-square fa-2x"></i> </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-2" id="icons">
+          <i class="fab fa-linkedin fa-2x"></i> </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-2" id="icons">
+          <i class="fab fa-dribbble-square fa-2x"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-2" id="icons">
+          <i class="fab fa-github-square fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+    <hr>
+    <div class="text-center mb-2">
+      <h6>Made with ❤️ by Er.Pooja kumari</a> </h6>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> Basic Banking System</a>
+    </div>
+  </footer>
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+</body>
+
+</html>
